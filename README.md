@@ -1,4 +1,6 @@
 # RNAseq pipeline
+### This code is associated with the paper from Fan et al., "Evolution of a plant gene cluster in Solanaceae and emergence of metabolic diversity". eLife, 2020. http://dx.doi.org/10.7554/eLife.56717
+
 
 Workflow: Bowtie -> Tophat (maps reads) -> get sam file via samtools -> 
 HTseq count [to get counts of reads to each gene or exon] -> Edge R -> differential expression  
